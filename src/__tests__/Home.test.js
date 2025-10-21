@@ -30,3 +30,4 @@ test("uses the 'color' prop to set the inline style color of the h1", () => {
   expect(h1).toBeInTheDocument();
   expect(h1.style.color).toEqual("firebrick");
 });
+
